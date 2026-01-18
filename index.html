@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Company Name</title>
+    <title>HAKOS Spedition</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="images/Logo.png" alt="Your Company Logo">
+                <img src="images/Logo.png" alt="HAKOS Spedition Logo">
             </div>
             <nav>
                 <button class="nav-toggle" aria-label="Toggle navigation">
@@ -19,12 +19,21 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#fotogalery">Fotogalery</a></li>
-                    <li><a href="#documents">Documents</a></li>
-                    <li><a href="#terms">Terms of Use</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#fotogalery" data-i18n="nav.gallery">Photo Gallery</a></li>
+                    <li><a href="#documents" data-i18n="nav.documents">Documents</a></li>
+                    <li><a href="#terms" data-i18n="nav.terms">Terms of Use</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    <li class="language-selector">
+                        <button type="button" class="lang-btn" data-lang="en">
+                            <img src="https://flagcdn.com/w20/gb.png" alt="English" width="20" height="15"> EN
+                        </button>
+                        <span class="lang-divider">|</span>
+                        <button type="button" class="lang-btn" data-lang="sk">
+                            <img src="https://flagcdn.com/w20/sk.png" alt="Slovak" width="20" height="15"> SK
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -33,27 +42,56 @@
     <main>
         <section id="home" class="hero">
             <div class="container">
-                <h2>Welcome to Your Company</h2>
-                <p>We provide exceptional services to help your business grow and succeed.</p>
-                <a href="#contact" class="btn">Get in Touch</a>
+                <h2 data-i18n="hero.title">HAKOS Spedition</h2>
+                <p data-i18n="hero.subtitle">We specialize in transport – carried out with professional care to the satisfaction of our customers</p>
+                <a href="#contact" class="btn" data-i18n="hero.cta">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 data-i18n="about.title">About Us</h2>
+                <div class="about-content">
+                    <p data-i18n="about.paragraph1">The company was founded in 2012 under the name SIDL - Slovak Institute of Transport and Logistics s.r.o. SIDL's main activity was consulting and advisory services. Client requests focused on transport organization, and freight forwarding became the dominant activity, which led to a change in the company's name. Since 2015, we have been providing our services under the name HAKOS Spedition s.r.o.</p>
+                    <p data-i18n="about.paragraph2">Our main goal is to provide quality service in securing transport for our customers.</p>
+                    <p data-i18n="about.paragraph3">It would not be possible to meet our customers' requirements without our carriers, with whom we strive to build fair and loyal relationships.</p>
+                </div>
             </div>
         </section>
 
         <section id="services">
             <div class="container">
-                <h2>Our Services</h2>
+                <h2 data-i18n="services.title">Our Services</h2>
+                <p class="services-intro" data-i18n="services.intro">Our main activity is domestic and international freight forwarding. As part of these services, we can provide you with:</p>
                 <div class="services-grid">
                     <div class="service-card">
-                        <h3>Service One</h3>
-                        <p>Description of your first service. Explain what you offer and how it benefits your customers.</p>
+                        <h3 data-i18n="services.transport.title">Domestic/International Transport</h3>
+                        <ul class="service-list">
+                            <li data-i18n="services.transport.fullTruckload">Full truckload</li>
+                            <li data-i18n="services.transport.lessThanTruckload">Less than truckload</li>
+                            <li data-i18n="services.transport.express">Express</li>
+                            <li data-i18n="services.transport.temperatureControlled">Temperature-controlled – frozen, refrigerated, temperature-controlled goods</li>
+                            <li data-i18n="services.transport.dangerousGoods">Dangerous goods within the meaning of the ADR Agreement</li>
+                            <li data-i18n="services.transport.hydraulicVehicles">Vehicles with hydraulic taillifts, hydraulic arms</li>
+                            <li data-i18n="services.transport.oversized">Oversized and heavy shipments</li>
+                            <li data-i18n="services.transport.coilMulda">Coil mulda and walking floor trailers</li>
+                            <li data-i18n="services.transport.bulkMaterials">Bulk materials</li>
+                        </ul>
                     </div>
                     <div class="service-card">
-                        <h3>Service Two</h3>
-                        <p>Description of your second service. Highlight the key features and advantages.</p>
+                        <h3 data-i18n="services.logistics.title">Logistics Services</h3>
+                        <ul class="service-list">
+                            <li data-i18n="services.logistics.insurance">Shipment insurance</li>
+                            <li data-i18n="services.logistics.storage">Short-term/long-term storage up to 500 m²</li>
+                            <li data-i18n="services.logistics.transshipment">Transshipment, handling of goods / unloading of ISO containers</li>
+                            <li data-i18n="services.logistics.neutralization">Neutralization of documents</li>
+                        </ul>
                     </div>
                     <div class="service-card">
-                        <h3>Service Three</h3>
-                        <p>Description of your third service. Show why customers should choose you.</p>
+                        <h3 data-i18n="services.other.title">Other Services</h3>
+                        <ul class="service-list">
+                            <li data-i18n="services.other.advice">Professional advice</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -61,7 +99,7 @@
 
         <section id="fotogalery">
             <div class="container">
-                <h2>Fotogalery</h2>
+                <h2 data-i18n="gallery.title">Photo Gallery</h2>
                 <div class="slider">
                     <button class="slider-btn slider-btn-prev" aria-label="Previous slide">&#10094;</button>
                     <div class="slider-container">
@@ -94,19 +132,19 @@
 
         <section id="documents">
             <div class="container">
-                <h2>Documents</h2>
+                <h2 data-i18n="documents.title">Documents</h2>
                 <ul class="documents-list">
                     <li>
-                        <a href="#">Company Brochure (PDF)</a>
+                        <a href="#" data-i18n="documents.brochure">Company Brochure (PDF)</a>
                     </li>
                     <li>
-                        <a href="#">Price List (PDF)</a>
+                        <a href="#" data-i18n="documents.priceList">Price List (PDF)</a>
                     </li>
                     <li>
-                        <a href="#">Technical Specifications (PDF)</a>
+                        <a href="#" data-i18n="documents.techSpecs">Technical Specifications (PDF)</a>
                     </li>
                     <li>
-                        <a href="#">Annual Report (PDF)</a>
+                        <a href="#" data-i18n="documents.annualReport">Annual Report (PDF)</a>
                     </li>
                 </ul>
             </div>
@@ -114,51 +152,51 @@
 
         <section id="terms">
             <div class="container">
-                <h2>Terms of Use</h2>
+                <h2 data-i18n="terms.title">Terms of Use</h2>
                 <div class="terms-content">
-                    <h3>1. Acceptance of Terms</h3>
-                    <p>By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement.</p>
+                    <h3 data-i18n="terms.section1.title">1. Acceptance of Terms</h3>
+                    <p data-i18n="terms.section1.content">By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement.</p>
 
-                    <h3>2. Use License</h3>
-                    <p>Permission is granted to temporarily view the materials on this website for personal, non-commercial use only.</p>
+                    <h3 data-i18n="terms.section2.title">2. Use License</h3>
+                    <p data-i18n="terms.section2.content">Permission is granted to temporarily view the materials on this website for personal, non-commercial use only.</p>
 
-                    <h3>3. Disclaimer</h3>
-                    <p>The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties.</p>
+                    <h3 data-i18n="terms.section3.title">3. Disclaimer</h3>
+                    <p data-i18n="terms.section3.content">The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties.</p>
 
-                    <h3>4. Limitations</h3>
-                    <p>In no event shall our company be liable for any damages arising out of the use or inability to use the materials on this website.</p>
+                    <h3 data-i18n="terms.section4.title">4. Limitations</h3>
+                    <p data-i18n="terms.section4.content">In no event shall our company be liable for any damages arising out of the use or inability to use the materials on this website.</p>
 
-                    <h3>5. Revisions</h3>
-                    <p>We may revise these terms of use at any time without notice. By using this website you agree to be bound by the current version of these terms.</p>
+                    <h3 data-i18n="terms.section5.title">5. Revisions</h3>
+                    <p data-i18n="terms.section5.content">We may revise these terms of use at any time without notice. By using this website you agree to be bound by the current version of these terms.</p>
                 </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="container">
-                <h2>Contact Us</h2>
+                <h2 data-i18n="contact.title">Contact Us</h2>
                 <div class="contact-wrapper">
                     <div class="contact-info">
-                        <h3>Get in Touch</h3>
-                        <p><strong>Address:</strong><br>123 Business Street<br>City, Country 12345</p>
-                        <p><strong>Phone:</strong><br>+1 234 567 890</p>
-                        <p><strong>Email:</strong><br>info@yourcompany.com</p>
-                        <p><strong>Business Hours:</strong><br>Mon - Fri: 9:00 AM - 5:00 PM</p>
+                        <h3 data-i18n="contact.getInTouch">Get in Touch</h3>
+                        <p><strong data-i18n="contact.address">Address</strong>:<br><span data-i18n="contact.addressValue">Slovakia</span></p>
+                        <p><strong data-i18n="contact.phone">Phone</strong>:<br><span data-i18n="contact.phoneValue">+421 XXX XXX XXX</span></p>
+                        <p><strong data-i18n="contact.email">Email</strong>:<br><span data-i18n="contact.emailValue">info@hakos.sk</span></p>
+                        <p><strong data-i18n="contact.businessHours">Business Hours</strong>:<br><span data-i18n="contact.hoursValue">Mon - Fri: 8:00 AM - 4:00 PM</span></p>
                     </div>
                     <form class="contact-form">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name" data-i18n="contact.form.name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-i18n="contact.form.email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message" data-i18n="contact.form.message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn" data-i18n="contact.form.send">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -169,33 +207,97 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Your Company</h3>
-                    <p>Providing quality services since 2020.</p>
+                    <h3 data-i18n="footer.companyName">HAKOS Spedition</h3>
+                    <p data-i18n="footer.tagline">Providing quality freight forwarding services since 2012.</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Quick Links</h3>
+                    <h3 data-i18n="footer.quickLinks">Quick Links</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Follow Us</h3>
+                    <h3 data-i18n="footer.followUs">Follow Us</h3>
                     <div class="social-links">
                         <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
                         <a href="#">LinkedIn</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Your Company. All rights reserved.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 HAKOS Spedition s.r.o. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
+        // Language Switcher
+        let translations = {};
+        let currentLang = 'en';
+
+        // Get nested value from object using dot notation
+        function getNestedValue(obj, path) {
+            return path.split('.').reduce((current, key) => current && current[key], obj);
+        }
+
+        // Apply translations to all elements with data-i18n attribute
+        function applyTranslations() {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                const translation = getNestedValue(translations, key);
+                if (translation) {
+                    element.textContent = translation;
+                }
+            });
+            // Update html lang attribute
+            document.documentElement.lang = currentLang;
+
+            // Update active state on language buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                if (btn.dataset.lang === currentLang) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+        }
+
+        // Load translations for the selected language
+        async function loadTranslations(lang) {
+            try {
+                const response = await fetch(`lang/${lang}.json`);
+                if (!response.ok) throw new Error('Failed to load translations');
+                translations = await response.json();
+                currentLang = lang;
+                applyTranslations();
+                localStorage.setItem('hakos-lang', lang);
+            } catch (error) {
+                console.error('Error loading translations:', error);
+            }
+        }
+
+        // Initialize language on page load
+        function initLanguage() {
+            const savedLang = localStorage.getItem('hakos-lang') || 'en';
+            loadTranslations(savedLang);
+        }
+
+        // Language button click handlers
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const lang = btn.dataset.lang;
+                if (lang !== currentLang) {
+                    loadTranslations(lang);
+                }
+            });
+        });
+
+        // Initialize on DOM ready
+        document.addEventListener('DOMContentLoaded', initLanguage);
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {

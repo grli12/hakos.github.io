@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Domov",
+    "services": "Služby",
+    "gallery": "Fotogaléria",
+    "documents": "Dokumenty",
+    "terms": "Podmienky používania",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "HAKOS Spedition",
+    "subtitle": "Našou špecializáciou je preprava – vykonaná s odbornou starostlivosťou k spokojnosti našich zákazníkov",
+    "cta": "Kontaktujte nás"
+  },
+  "about": {
+    "title": "O Nás",
+    "paragraph1": "Vznik spoločnosti v roku 2012 pod názvom SIDL - Slovenský inštitút dopravy a logistiky s.r.o. Hlavnou činnosťou SIDLu bola konzultačná a poradenská činnosť. Požiadavky klientov smerovali k organizácii prepráv, zasielateľská činnosti sa stala dominantnou, čo vyústilo do zmeny názvu spoločnosti. Od roku 2015 poskytujeme naše služby pod hlavičkou HAKOS Spedition s.r.o.",
+    "paragraph2": "Hlavným cieľom je poskytovanie kvalitného servisu pri zabezpečovaní prepráv pre našich zákazníkov.",
+    "paragraph3": "Plniť požiadavky našich zákazníkov by nebolo možné bez našich dopravcov, s ktorými sa snažíme budovať férové a loajálne vzťahy."
+  },
+  "services": {
+    "title": "Naše Služby",
+    "intro": "Hlavnou činnosťou sú služby vnútroštátneho a medzinárodného zasielateľstva. V rámci týchto služieb vieme pre Vás zabezpečiť:",
+    "transport": {
+      "title": "Vnútroštátne/Medzinárodné prepravy",
+      "fullTruckload": "Celovozové",
+      "lessThanTruckload": "Dokládkové",
+      "express": "Expresné",
+      "temperatureControlled": "S kontrolovanou teplotou – mrazený, chladený, temperovaný tovar",
+      "dangerousGoods": "Nebezpečného tovaru v zmysle Dohody ADR",
+      "hydraulicVehicles": "Vozidlá s hydraulickými plošinami, hydraulickou rukou",
+      "oversized": "Nadmerných a nadrozmerných zásielok",
+      "coilMulda": "Muldovými a walkingfloor návesmi",
+      "bulkMaterials": "Sypkých materiálov"
+    },
+    "logistics": {
+      "title": "Logistické služby",
+      "insurance": "Poistenie zásielok",
+      "storage": "Zabezpečenie krátkodobého/dlhodobého skladovania do 500 m²",
+      "transshipment": "Prekládka tovaru / vykládka ISO kontajnerov",
+      "neutralization": "Neutralizácia dokladov"
+    },
+    "other": {
+      "title": "Ostatné služby",
+      "advice": "Odborné poradenstvo"
+    }
+  },
+  "gallery": {
+    "title": "Fotogaléria"
+  },
+  "documents": {
+    "title": "Dokumenty",
+    "brochure": "Firemná brožúra (PDF)",
+    "priceList": "Cenník (PDF)",
+    "techSpecs": "Technické špecifikácie (PDF)",
+    "annualReport": "Výročná správa (PDF)"
+  },
+  "terms": {
+    "title": "Podmienky používania",
+    "section1": {
+      "title": "1. Prijatie podmienok",
+      "content": "Prístupom a používaním tejto webovej stránky súhlasíte s tým, že budete viazaní podmienkami tejto dohody."
+    },
+    "section2": {
+      "title": "2. Licencia na používanie",
+      "content": "Povolenie sa udeľuje na dočasné prezeranie materiálov na tejto webovej stránke len na osobné, nekomerčné použitie."
+    },
+    "section3": {
+      "title": "3. Vylúčenie zodpovednosti",
+      "content": "Materiály na tejto webovej stránke sú poskytované \"tak ako sú\". Neposkytujeme žiadne záruky, výslovné ani implicitné."
+    },
+    "section4": {
+      "title": "4. Obmedzenia",
+      "content": "V žiadnom prípade naša spoločnosť nezodpovedá za žiadne škody vyplývajúce z používania alebo nemožnosti používať materiály na tejto webovej stránke."
+    },
+    "section5": {
+      "title": "5. Revízie",
+      "content": "Tieto podmienky používania môžeme kedykoľvek zmeniť bez predchádzajúceho upozornenia. Používaním tejto webovej stránky súhlasíte s tým, že budete viazaní aktuálnou verziou týchto podmienok."
+    }
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "getInTouch": "Spojte sa s nami",
+    "address": "Adresa",
+    "phone": "Telefón",
+    "email": "E-mail",
+    "businessHours": "Pracovné hodiny",
+    "addressValue": "Slovensko",
+    "phoneValue": "+421 XXX XXX XXX",
+    "emailValue": "info@hakos.sk",
+    "hoursValue": "Po - Pia: 8:00 - 16:00",
+    "form": {
+      "name": "Meno",
+      "email": "E-mail",
+      "message": "Správa",
+      "send": "Odoslať správu"
+    }
+  },
+  "footer": {
+    "companyName": "HAKOS Spedition",
+    "tagline": "Poskytujeme kvalitné zasielateľské služby od roku 2012.",
+    "quickLinks": "Rýchle odkazy",
+    "followUs": "Sledujte nás",
+    "copyright": "© 2025 HAKOS Spedition s.r.o. Všetky práva vyhradené."
+  }
+}
