@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAKOS Spedition</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -65,32 +66,41 @@
                 <p class="services-intro" data-i18n="services.intro">Our main activity is domestic and international freight forwarding. As part of these services, we can provide you with:</p>
                 <div class="services-grid">
                     <div class="service-card">
-                        <h3 data-i18n="services.transport.title">Domestic/International Transport</h3>
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3 data-i18n="services.standard.title">Standard Transport</h3>
                         <ul class="service-list">
-                            <li data-i18n="services.transport.fullTruckload">Full truckload</li>
-                            <li data-i18n="services.transport.lessThanTruckload">Less than truckload</li>
-                            <li data-i18n="services.transport.express">Express</li>
-                            <li data-i18n="services.transport.temperatureControlled">Temperature-controlled – frozen, refrigerated, temperature-controlled goods</li>
-                            <li data-i18n="services.transport.dangerousGoods">Dangerous goods within the meaning of the ADR Agreement</li>
-                            <li data-i18n="services.transport.hydraulicVehicles">Vehicles with hydraulic taillifts, hydraulic arms</li>
-                            <li data-i18n="services.transport.oversized">Oversized and heavy shipments</li>
-                            <li data-i18n="services.transport.coilMulda">Coil mulda and walking floor trailers</li>
-                            <li data-i18n="services.transport.bulkMaterials">Bulk materials</li>
+                            <li data-i18n="services.standard.fullTruckload">Full truckload (FTL)</li>
+                            <li data-i18n="services.standard.lessThanTruckload">Less than truckload (LTL)</li>
+                            <li data-i18n="services.standard.express">Express delivery</li>
                         </ul>
                     </div>
                     <div class="service-card">
-                        <h3 data-i18n="services.logistics.title">Logistics Services</h3>
+                        <div class="service-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h3 data-i18n="services.specialized.title">Specialized Transport</h3>
+                        <ul class="service-list">
+                            <li data-i18n="services.specialized.temperatureControlled">Temperature-controlled (frozen, refrigerated)</li>
+                            <li data-i18n="services.specialized.dangerousGoods">Dangerous goods (ADR)</li>
+                            <li data-i18n="services.specialized.oversized">Oversized and heavy shipments</li>
+                            <li data-i18n="services.specialized.bulkMaterials">Bulk materials</li>
+                            <li data-i18n="services.specialized.specialTrailers">Special trailers (coil mulda, walking floor)</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <h3 data-i18n="services.logistics.title">Logistics & Support</h3>
                         <ul class="service-list">
                             <li data-i18n="services.logistics.insurance">Shipment insurance</li>
-                            <li data-i18n="services.logistics.storage">Short-term/long-term storage up to 500 m²</li>
-                            <li data-i18n="services.logistics.transshipment">Transshipment, handling of goods / unloading of ISO containers</li>
-                            <li data-i18n="services.logistics.neutralization">Neutralization of documents</li>
-                        </ul>
-                    </div>
-                    <div class="service-card">
-                        <h3 data-i18n="services.other.title">Other Services</h3>
-                        <ul class="service-list">
-                            <li data-i18n="services.other.advice">Professional advice</li>
+                            <li data-i18n="services.logistics.storage">Storage (up to 500 m²)</li>
+                            <li data-i18n="services.logistics.transshipment">Transshipment / ISO container handling</li>
+                            <li data-i18n="services.logistics.neutralization">Document neutralization</li>
+                            <li data-i18n="services.logistics.advice">Professional advice</li>
+                            <li data-i18n="services.logistics.hydraulicVehicles">Hydraulic equipment vehicles</li>
                         </ul>
                     </div>
                 </div>

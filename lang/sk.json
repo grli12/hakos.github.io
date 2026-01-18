@@ -21,28 +21,28 @@
   "services": {
     "title": "Naše Služby",
     "intro": "Hlavnou činnosťou sú služby vnútroštátneho a medzinárodného zasielateľstva. V rámci týchto služieb vieme pre Vás zabezpečiť:",
-    "transport": {
-      "title": "Vnútroštátne/Medzinárodné prepravy",
-      "fullTruckload": "Celovozové",
-      "lessThanTruckload": "Dokládkové",
-      "express": "Expresné",
-      "temperatureControlled": "S kontrolovanou teplotou – mrazený, chladený, temperovaný tovar",
-      "dangerousGoods": "Nebezpečného tovaru v zmysle Dohody ADR",
-      "hydraulicVehicles": "Vozidlá s hydraulickými plošinami, hydraulickou rukou",
-      "oversized": "Nadmerných a nadrozmerných zásielok",
-      "coilMulda": "Muldovými a walkingfloor návesmi",
-      "bulkMaterials": "Sypkých materiálov"
+    "standard": {
+      "title": "Štandardná preprava",
+      "fullTruckload": "Celovozová preprava (FTL)",
+      "lessThanTruckload": "Dokládková preprava (LTL)",
+      "express": "Expresná preprava"
+    },
+    "specialized": {
+      "title": "Špecializovaná preprava",
+      "temperatureControlled": "S kontrolovanou teplotou (mrazený, chladený)",
+      "dangerousGoods": "Nebezpečný tovar (ADR)",
+      "oversized": "Nadmerné a nadrozmerné zásielky",
+      "bulkMaterials": "Sypké materiály",
+      "specialTrailers": "Špeciálne návesy (coil mulda, walking floor)"
     },
     "logistics": {
-      "title": "Logistické služby",
+      "title": "Logistika a podpora",
       "insurance": "Poistenie zásielok",
-      "storage": "Zabezpečenie krátkodobého/dlhodobého skladovania do 500 m²",
-      "transshipment": "Prekládka tovaru / vykládka ISO kontajnerov",
-      "neutralization": "Neutralizácia dokladov"
-    },
-    "other": {
-      "title": "Ostatné služby",
-      "advice": "Odborné poradenstvo"
+      "storage": "Skladovanie (do 500 m²)",
+      "transshipment": "Prekládka / manipulácia s ISO kontajnermi",
+      "neutralization": "Neutralizácia dokladov",
+      "advice": "Odborné poradenstvo",
+      "hydraulicVehicles": "Vozidlá s hydraulickým vybavením"
     }
   },
   "gallery": {

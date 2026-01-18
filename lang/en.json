@@ -21,28 +21,28 @@
   "services": {
     "title": "Our Services",
     "intro": "Our main activity is domestic and international freight forwarding. As part of these services, we can provide you with:",
-    "transport": {
-      "title": "Domestic/International Transport",
-      "fullTruckload": "Full truckload",
-      "lessThanTruckload": "Less than truckload",
-      "express": "Express",
-      "temperatureControlled": "Temperature-controlled – frozen, refrigerated, temperature-controlled goods",
-      "dangerousGoods": "Dangerous goods within the meaning of the ADR Agreement",
-      "hydraulicVehicles": "Vehicles with hydraulic taillifts, hydraulic arms",
+    "standard": {
+      "title": "Standard Transport",
+      "fullTruckload": "Full truckload (FTL)",
+      "lessThanTruckload": "Less than truckload (LTL)",
+      "express": "Express delivery"
+    },
+    "specialized": {
+      "title": "Specialized Transport",
+      "temperatureControlled": "Temperature-controlled (frozen, refrigerated)",
+      "dangerousGoods": "Dangerous goods (ADR)",
       "oversized": "Oversized and heavy shipments",
-      "coilMulda": "Coil mulda and walking floor trailers",
-      "bulkMaterials": "Bulk materials"
+      "bulkMaterials": "Bulk materials",
+      "specialTrailers": "Special trailers (coil mulda, walking floor)"
     },
     "logistics": {
-      "title": "Logistics Services",
+      "title": "Logistics & Support",
       "insurance": "Shipment insurance",
-      "storage": "Short-term/long-term storage up to 500 m²",
-      "transshipment": "Transshipment, handling of goods / unloading of ISO containers",
-      "neutralization": "Neutralization of documents"
-    },
-    "other": {
-      "title": "Other Services",
-      "advice": "Professional advice"
+      "storage": "Storage (up to 500 m²)",
+      "transshipment": "Transshipment / ISO container handling",
+      "neutralization": "Document neutralization",
+      "advice": "Professional advice",
+      "hydraulicVehicles": "Hydraulic equipment vehicles"
     }
   },
   "gallery": {
