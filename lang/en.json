@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Photo Gallery",
+    "documents": "Documents",
+    "terms": "Terms of Use",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "HAKOS Spedition",
+    "subtitle": "We specialize in transport – carried out with professional care to the satisfaction of our customers",
+    "cta": "Get in Touch"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "The company was founded in 2012 under the name SIDL - Slovak Institute of Transport and Logistics s.r.o. SIDL's main activity was consulting and advisory services. Client requests focused on transport organization, and freight forwarding became the dominant activity, which led to a change in the company's name. Since 2015, we have been providing our services under the name HAKOS Spedition s.r.o.",
+    "paragraph2": "Our main goal is to provide quality service in securing transport for our customers.",
+    "paragraph3": "It would not be possible to meet our customers' requirements without our carriers, with whom we strive to build fair and loyal relationships."
+  },
+  "services": {
+    "title": "Our Services",
+    "intro": "Our main activity is domestic and international freight forwarding. As part of these services, we can provide you with:",
+    "transport": {
+      "title": "Domestic/International Transport",
+      "fullTruckload": "Full truckload",
+      "lessThanTruckload": "Less than truckload",
+      "express": "Express",
+      "temperatureControlled": "Temperature-controlled – frozen, refrigerated, temperature-controlled goods",
+      "dangerousGoods": "Dangerous goods within the meaning of the ADR Agreement",
+      "hydraulicVehicles": "Vehicles with hydraulic taillifts, hydraulic arms",
+      "oversized": "Oversized and heavy shipments",
+      "coilMulda": "Coil mulda and walking floor trailers",
+      "bulkMaterials": "Bulk materials"
+    },
+    "logistics": {
+      "title": "Logistics Services",
+      "insurance": "Shipment insurance",
+      "storage": "Short-term/long-term storage up to 500 m²",
+      "transshipment": "Transshipment, handling of goods / unloading of ISO containers",
+      "neutralization": "Neutralization of documents"
+    },
+    "other": {
+      "title": "Other Services",
+      "advice": "Professional advice"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery"
+  },
+  "documents": {
+    "title": "Documents",
+    "brochure": "Company Brochure (PDF)",
+    "priceList": "Price List (PDF)",
+    "techSpecs": "Technical Specifications (PDF)",
+    "annualReport": "Annual Report (PDF)"
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement."
+    },
+    "section2": {
+      "title": "2. Use License",
+      "content": "Permission is granted to temporarily view the materials on this website for personal, non-commercial use only."
+    },
+    "section3": {
+      "title": "3. Disclaimer",
+      "content": "The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties."
+    },
+    "section4": {
+      "title": "4. Limitations",
+      "content": "In no event shall our company be liable for any damages arising out of the use or inability to use the materials on this website."
+    },
+    "section5": {
+      "title": "5. Revisions",
+      "content": "We may revise these terms of use at any time without notice. By using this website you agree to be bound by the current version of these terms."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "businessHours": "Business Hours",
+    "addressValue": "Slovakia",
+    "phoneValue": "+421 XXX XXX XXX",
+    "emailValue": "info@hakos.sk",
+    "hoursValue": "Mon - Fri: 8:00 AM - 4:00 PM",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "companyName": "HAKOS Spedition",
+    "tagline": "Providing quality freight forwarding services since 2012.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 HAKOS Spedition s.r.o. All rights reserved."
+  }
+}
