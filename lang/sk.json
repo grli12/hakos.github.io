@@ -1,8 +1,8 @@
 {
   "nav": {
     "home": "Domov",
+    "about": "O Nás",
     "services": "Služby",
-    "gallery": "Fotogaléria",
     "documents": "Dokumenty",
     "terms": "Podmienky používania",
     "contact": "Kontakt"
@@ -44,9 +44,6 @@
       "advice": "Odborné poradenstvo",
       "hydraulicVehicles": "Vozidlá s hydraulickým vybavením"
     }
-  },
-  "gallery": {
-    "title": "Fotogaléria"
   },
   "documents": {
     "title": "Dokumenty",

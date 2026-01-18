@@ -1,8 +1,8 @@
 {
   "nav": {
     "home": "Home",
+    "about": "About Us",
     "services": "Services",
-    "gallery": "Photo Gallery",
     "documents": "Documents",
     "terms": "Terms of Use",
     "contact": "Contact"
@@ -44,9 +44,6 @@
       "advice": "Professional advice",
       "hydraulicVehicles": "Hydraulic equipment vehicles"
     }
-  },
-  "gallery": {
-    "title": "Photo Gallery"
   },
   "documents": {
     "title": "Documents",

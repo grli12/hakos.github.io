@@ -10,10 +10,10 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <img src="images/Logo.png" alt="HAKOS Spedition Logo">
-            </div>
             <nav>
+                <a href="#home" class="nav-logo">
+                    <img src="images/hakos_logo.png" alt="HAKOS Spedition">
+                </a>
                 <button class="nav-toggle" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -22,7 +22,7 @@
                 <ul class="nav-menu">
                     <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
                     <li><a href="#services" data-i18n="nav.services">Services</a></li>
-                    <li><a href="#fotogalery" data-i18n="nav.gallery">Photo Gallery</a></li>
+                    <li><a href="#about" data-i18n="nav.about">About Us</a></li>
                     <li><a href="#documents" data-i18n="nav.documents">Documents</a></li>
                     <li><a href="#terms" data-i18n="nav.terms">Terms of Use</a></li>
                     <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
@@ -43,23 +43,11 @@
     <main>
         <section id="home" class="hero">
             <div class="container">
-                <h2 data-i18n="hero.title">HAKOS Spedition</h2>
                 <p data-i18n="hero.subtitle">We specialize in transport – carried out with professional care to the satisfaction of our customers</p>
                 <a href="#contact" class="btn" data-i18n="hero.cta">Get in Touch</a>
             </div>
         </section>
-
-        <section id="about">
-            <div class="container">
-                <h2 data-i18n="about.title">About Us</h2>
-                <div class="about-content">
-                    <p data-i18n="about.paragraph1">The company was founded in 2012 under the name SIDL - Slovak Institute of Transport and Logistics s.r.o. SIDL's main activity was consulting and advisory services. Client requests focused on transport organization, and freight forwarding became the dominant activity, which led to a change in the company's name. Since 2015, we have been providing our services under the name HAKOS Spedition s.r.o.</p>
-                    <p data-i18n="about.paragraph2">Our main goal is to provide quality service in securing transport for our customers.</p>
-                    <p data-i18n="about.paragraph3">It would not be possible to meet our customers' requirements without our carriers, with whom we strive to build fair and loyal relationships.</p>
-                </div>
-            </div>
-        </section>
-
+        
         <section id="services">
             <div class="container">
                 <h2 data-i18n="services.title">Our Services</h2>
@@ -107,40 +95,18 @@
             </div>
         </section>
 
-        <section id="fotogalery">
+        <section id="about">
             <div class="container">
-                <h2 data-i18n="gallery.title">Photo Gallery</h2>
-                <div class="slider">
-                    <button class="slider-btn slider-btn-prev" aria-label="Previous slide">&#10094;</button>
-                    <div class="slider-container">
-                        <div class="slider-track">
-                            <div class="slide">
-                                <img src="images/kamion_1.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <div class="placeholder-image">Image 2</div>
-                            </div>
-                            <div class="slide">
-                                <div class="placeholder-image">Image 3</div>
-                            </div>
-                            <div class="slide">
-                                <div class="placeholder-image">Image 4</div>
-                            </div>
-                            <div class="slide">
-                                <div class="placeholder-image">Image 5</div>
-                            </div>
-                            <div class="slide">
-                                <div class="placeholder-image">Image 6</div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="slider-btn slider-btn-next" aria-label="Next slide">&#10095;</button>
+                <h2 data-i18n="about.title">About Us</h2>
+                <div class="about-content">
+                    <p data-i18n="about.paragraph1">The company was founded in 2012 under the name SIDL - Slovak Institute of Transport and Logistics s.r.o. SIDL's main activity was consulting and advisory services. Client requests focused on transport organization, and freight forwarding became the dominant activity, which led to a change in the company's name. Since 2015, we have been providing our services under the name HAKOS Spedition s.r.o.</p>
+                    <p data-i18n="about.paragraph2">Our main goal is to provide quality service in securing transport for our customers.</p>
+                    <p data-i18n="about.paragraph3">It would not be possible to meet our customers' requirements without our carriers, with whom we strive to build fair and loyal relationships.</p>
                 </div>
-                <div class="slider-dots"></div>
             </div>
         </section>
 
-        <section id="documents">
+<section id="documents">
             <div class="container">
                 <h2 data-i18n="documents.title">Documents</h2>
                 <ul class="documents-list">
@@ -229,10 +195,9 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3 data-i18n="footer.followUs">Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#">Facebook</a>
-                        <a href="#">LinkedIn</a>
+                    <div class="footer-logos">
+                        <img src="images/tuv-iso-9001.png" alt="TUV ISO 9001">
+                        <img src="images/zvaz-logo.png" alt="Zvaz" class="zvaz-logo">
                     </div>
                 </div>
             </div>
@@ -342,11 +307,12 @@
         window.addEventListener('scroll', () => {
             const sections = document.querySelectorAll('section');
             const navLinks = document.querySelectorAll('.nav-menu a');
+            const headerOffset = 150;
 
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                if (scrollY >= sectionTop - 100) {
+                if (scrollY >= sectionTop - headerOffset) {
                     current = section.getAttribute('id');
                 }
             });
@@ -357,69 +323,6 @@
                     link.classList.add('active');
                 }
             });
-        });
-
-        // Image Slider
-        const sliderTrack = document.querySelector('.slider-track');
-        const slides = document.querySelectorAll('.slide');
-        const prevBtn = document.querySelector('.slider-btn-prev');
-        const nextBtn = document.querySelector('.slider-btn-next');
-        const dotsContainer = document.querySelector('.slider-dots');
-
-        let currentSlide = 0;
-        const totalSlides = slides.length;
-
-        // Create dots
-        slides.forEach((_, index) => {
-            const dot = document.createElement('button');
-            dot.classList.add('slider-dot');
-            if (index === 0) dot.classList.add('active');
-            dot.setAttribute('aria-label', `Go to slide ${index + 1}`);
-            dot.addEventListener('click', () => goToSlide(index));
-            dotsContainer.appendChild(dot);
-        });
-
-        const dots = document.querySelectorAll('.slider-dot');
-
-        function updateSlider() {
-            sliderTrack.style.transform = `translateX(-${currentSlide * 100}%)`;
-            dots.forEach((dot, index) => {
-                dot.classList.toggle('active', index === currentSlide);
-            });
-        }
-
-        function goToSlide(index) {
-            currentSlide = index;
-            updateSlider();
-        }
-
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % totalSlides;
-            updateSlider();
-        }
-
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-            updateSlider();
-        }
-
-        prevBtn.addEventListener('click', prevSlide);
-        nextBtn.addEventListener('click', nextSlide);
-
-        // Keyboard navigation
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowLeft') prevSlide();
-            if (e.key === 'ArrowRight') nextSlide();
-        });
-
-        // Auto-advance slider every 5 seconds
-        let autoSlide = setInterval(nextSlide, 5000);
-
-        // Pause auto-advance on hover
-        const slider = document.querySelector('.slider');
-        slider.addEventListener('mouseenter', () => clearInterval(autoSlide));
-        slider.addEventListener('mouseleave', () => {
-            autoSlide = setInterval(nextSlide, 5000);
         });
     </script>
 </body>
