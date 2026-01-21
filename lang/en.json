@@ -21,6 +21,7 @@
   "services": {
     "title": "Our Services",
     "intro": "Our main activity is domestic and international freight forwarding. As part of these services, we can provide you with:",
+    "getInTouch": "Get in Touch",
     "standard": {
       "title": "Standard Transport",
       "fullTruckload": "Full truckload (FTL)",
@@ -43,6 +44,13 @@
       "neutralization": "Document neutralization",
       "advice": "Professional advice",
       "hydraulicVehicles": "Hydraulic equipment vehicles"
+    },
+    "sea": {
+      "title": "Sea Transport",
+      "fcl": "Full container load (FCL) and Less than container load (LCL)",
+      "doorToDoor": "Door to Door",
+      "dangerousGoods": "Transport of dangerous goods according to IMDG regulations",
+      "additional": "Additional services"
     }
   },
   "documents": {

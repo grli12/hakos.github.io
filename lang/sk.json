@@ -21,6 +21,7 @@
   "services": {
     "title": "Naše Služby",
     "intro": "Hlavnou činnosťou sú služby vnútroštátneho a medzinárodného zasielateľstva. V rámci týchto služieb vieme pre Vás zabezpečiť:",
+    "getInTouch": "Kontaktujte nás",
     "standard": {
       "title": "Štandardná preprava",
       "fullTruckload": "Celovozová preprava (FTL)",
@@ -43,6 +44,13 @@
       "neutralization": "Neutralizácia dokladov",
       "advice": "Odborné poradenstvo",
       "hydraulicVehicles": "Vozidlá s hydraulickým vybavením"
+    },
+    "sea": {
+      "title": "Námorna preprava",
+      "fcl": "Celokontajnerových zásielok (FCL) a menších / kusových zasielok (LCL)",
+      "doorToDoor": "Priamo od odosielateľa k príjemcovi (Door to Door)",
+      "dangerousGoods": "Preprava nebezpečného tovaru podľa predpisov IMDG",
+      "additional": "Doplnkové služby"
     }
   },
   "documents": {
