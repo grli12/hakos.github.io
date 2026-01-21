@@ -127,16 +127,13 @@
                 <h2 data-i18n="documents.title">Documents</h2>
                 <ul class="documents-list">
                     <li>
-                        <a href="#" data-i18n="documents.brochure">Company Brochure (PDF)</a>
+                        <a href="docs/general/certificate.pdf" target="_blank" data-i18n="documents.certificate">Trade License Certificate (PDF)</a>
                     </li>
                     <li>
-                        <a href="#" data-i18n="documents.priceList">Price List (PDF)</a>
+                        <a href="docs/en/EK-en.pdf" target="_blank" data-i18n="documents.ethicsCode" data-i18n-href="documents.ethicsCodeHref">Ethics Code (PDF)</a>
                     </li>
                     <li>
-                        <a href="#" data-i18n="documents.techSpecs">Technical Specifications (PDF)</a>
-                    </li>
-                    <li>
-                        <a href="#" data-i18n="documents.annualReport">Annual Report (PDF)</a>
+                        <a href="docs/en/terms-en.pdf" target="_blank" data-i18n="documents.terms" data-i18n-href="documents.termsHref">General Freight Forwarder Terms (PDF)</a>
                     </li>
                 </ul>
             </div>
@@ -242,6 +239,14 @@
                     element.textContent = translation;
                 }
             });
+            // Update href attributes for elements with data-i18n-href
+            document.querySelectorAll('[data-i18n-href]').forEach(element => {
+                const key = element.getAttribute('data-i18n-href');
+                const href = getNestedValue(translations, key);
+                if (href) {
+                    element.setAttribute('href', href);
+                }
+            });
             // Update html lang attribute
             document.documentElement.lang = currentLang;
 
@@ -317,6 +322,16 @@
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
             });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('active') &&
+                !navMenu.contains(e.target) &&
+                !navToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            }
         });
 
         // Active navigation highlight on scroll

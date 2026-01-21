@@ -55,10 +55,11 @@
   },
   "documents": {
     "title": "Documents",
-    "brochure": "Company Brochure (PDF)",
-    "priceList": "Price List (PDF)",
-    "techSpecs": "Technical Specifications (PDF)",
-    "annualReport": "Annual Report (PDF)"
+    "certificate": "Trade License Certificate (PDF)",
+    "ethicsCode": "Ethics Code (PDF)",
+    "ethicsCodeHref": "docs/en/EK-en.pdf",
+    "terms": "General Freight Forwarder Terms (PDF)",
+    "termsHref": "docs/en/terms-en.pdf"
   },
   "terms": {
     "title": "Terms of Use",

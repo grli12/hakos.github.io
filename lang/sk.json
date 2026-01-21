@@ -55,10 +55,11 @@
   },
   "documents": {
     "title": "Dokumenty",
-    "brochure": "Firemná brožúra (PDF)",
-    "priceList": "Cenník (PDF)",
-    "techSpecs": "Technické špecifikácie (PDF)",
-    "annualReport": "Výročná správa (PDF)"
+    "certificate": "Živnostenský list (PDF)",
+    "ethicsCode": "Etický kódex (PDF)",
+    "ethicsCodeHref": "docs/sk/EK.pdf",
+    "terms": "Všeobecné zasielateľské podmienky (PDF)",
+    "termsHref": "docs/sk/terms.pdf"
   },
   "terms": {
     "title": "Podmienky používania",
