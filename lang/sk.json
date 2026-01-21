@@ -4,7 +4,6 @@
     "about": "O Nás",
     "services": "Služby",
     "documents": "Dokumenty",
-    "terms": "Podmienky používania",
     "contact": "Kontakt"
   },
   "hero": {
@@ -60,29 +59,6 @@
     "ethicsCodeHref": "docs/sk/EK.pdf",
     "terms": "Všeobecné zasielateľské podmienky (PDF)",
     "termsHref": "docs/sk/terms.pdf"
-  },
-  "terms": {
-    "title": "Podmienky používania",
-    "section1": {
-      "title": "1. Prijatie podmienok",
-      "content": "Prístupom a používaním tejto webovej stránky súhlasíte s tým, že budete viazaní podmienkami tejto dohody."
-    },
-    "section2": {
-      "title": "2. Licencia na používanie",
-      "content": "Povolenie sa udeľuje na dočasné prezeranie materiálov na tejto webovej stránke len na osobné, nekomerčné použitie."
-    },
-    "section3": {
-      "title": "3. Vylúčenie zodpovednosti",
-      "content": "Materiály na tejto webovej stránke sú poskytované \"tak ako sú\". Neposkytujeme žiadne záruky, výslovné ani implicitné."
-    },
-    "section4": {
-      "title": "4. Obmedzenia",
-      "content": "V žiadnom prípade naša spoločnosť nezodpovedá za žiadne škody vyplývajúce z používania alebo nemožnosti používať materiály na tejto webovej stránke."
-    },
-    "section5": {
-      "title": "5. Revízie",
-      "content": "Tieto podmienky používania môžeme kedykoľvek zmeniť bez predchádzajúceho upozornenia. Používaním tejto webovej stránky súhlasíte s tým, že budete viazaní aktuálnou verziou týchto podmienok."
-    }
   },
   "contact": {
     "title": "Kontaktujte nás",

@@ -4,7 +4,6 @@
     "about": "About Us",
     "services": "Services",
     "documents": "Documents",
-    "terms": "Terms of Use",
     "contact": "Contact"
   },
   "hero": {
@@ -60,29 +59,6 @@
     "ethicsCodeHref": "docs/en/EK-en.pdf",
     "terms": "General Freight Forwarder Terms (PDF)",
     "termsHref": "docs/en/terms-en.pdf"
-  },
-  "terms": {
-    "title": "Terms of Use",
-    "section1": {
-      "title": "1. Acceptance of Terms",
-      "content": "By accessing and using this website, you accept and agree to be bound by the terms and provisions of this agreement."
-    },
-    "section2": {
-      "title": "2. Use License",
-      "content": "Permission is granted to temporarily view the materials on this website for personal, non-commercial use only."
-    },
-    "section3": {
-      "title": "3. Disclaimer",
-      "content": "The materials on this website are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties."
-    },
-    "section4": {
-      "title": "4. Limitations",
-      "content": "In no event shall our company be liable for any damages arising out of the use or inability to use the materials on this website."
-    },
-    "section5": {
-      "title": "5. Revisions",
-      "content": "We may revise these terms of use at any time without notice. By using this website you agree to be bound by the current version of these terms."
-    }
   },
   "contact": {
     "title": "Contact Us",

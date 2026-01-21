@@ -384,30 +384,6 @@ section h2 {
     padding-left: 35px;
 }
 
-/* Terms */
-.terms-content {
-    max-width: 800px;
-    margin: 0 auto;
-    background: var(--white);
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.terms-content h3 {
-    color: var(--primary-color);
-    margin: 25px 0 10px;
-    font-size: 1.25rem;
-}
-
-.terms-content h3:first-child {
-    margin-top: 0;
-}
-
-.terms-content p {
-    color: var(--gray);
-}
-
 /* Contact */
 .contact-wrapper {
     display: grid;
@@ -588,9 +564,5 @@ footer {
 
     .contact-info {
         text-align: center;
-    }
-
-    .terms-content {
-        padding: 25px;
     }
 }
