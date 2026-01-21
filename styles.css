@@ -236,11 +236,6 @@ section h2 {
     .services-grid {
         grid-template-columns: 1fr;
     }
-
-    .service-btn {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .service-card {
@@ -284,6 +279,13 @@ section h2 {
 
 .service-btn:hover {
     background: #d96a1a;
+}
+
+@media (max-width: 600px) {
+    .service-btn {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .service-icon {
