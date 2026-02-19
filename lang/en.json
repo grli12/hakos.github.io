@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "documents": "Documents",
+
     "contact": "Contact"
   },
   "hero": {
@@ -52,29 +52,23 @@
       "additional": "Additional services"
     }
   },
-  "documents": {
-    "title": "Documents",
-    "certificate": "Trade License Certificate (PDF)",
-    "ethicsCode": "Ethics Code (PDF)",
-    "ethicsCodeHref": "docs/en/EK-en.pdf",
-    "terms": "General Freight Forwarder Terms (PDF)",
-    "termsHref": "docs/en/terms-en.pdf"
-  },
   "contact": {
     "title": "Contact Us",
     "getInTouch": "Get in Touch",
-    "address": "Address",
+    "registeredOffice": "Registered Office",
+    "operationsOffice": "Forwarding Operations",
+    "companyId": "Company Details",
+    "icoLabel": "Company ID",
+    "vatLabel": "VAT ID",
+    "registerValue": "Registered in Commercial Register Žilina, File No.: 55945/L",
     "phone": "Phone",
     "email": "Email",
+    "team": "Our Team",
+    "companyInfo": "Company Information",
     "businessHours": "Business Hours",
-    "addressValue": "Slovakia",
-    "phoneValue": "+421 XXX XXX XXX",
-    "emailValue": "info@hakos.sk",
     "hoursValue": "Mon - Fri: 8:00 AM - 4:00 PM",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
+      "description": "Send us a message directly via email:",
       "send": "Send Message"
     }
   },

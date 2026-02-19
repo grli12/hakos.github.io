@@ -23,7 +23,7 @@
                     <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
                     <li><a href="#services" data-i18n="nav.services">Services</a></li>
                     <li><a href="#about" data-i18n="nav.about">About Us</a></li>
-                    <li><a href="#documents" data-i18n="nav.documents">Documents</a></li>
+
                     <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
                     <li class="language-selector">
                         <button type="button" class="lang-btn" data-lang="en">
@@ -121,49 +121,54 @@
             </div>
         </section>
 
-<section id="documents">
-            <div class="container">
-                <h2 data-i18n="documents.title">Documents</h2>
-                <ul class="documents-list">
-                    <li>
-                        <a href="docs/general/certificate.pdf" target="_blank" data-i18n="documents.certificate">Trade License Certificate (PDF)</a>
-                    </li>
-                    <li>
-                        <a href="docs/en/EK-en.pdf" target="_blank" data-i18n="documents.ethicsCode" data-i18n-href="documents.ethicsCodeHref">Ethics Code (PDF)</a>
-                    </li>
-                    <li>
-                        <a href="docs/en/terms-en.pdf" target="_blank" data-i18n="documents.terms" data-i18n-href="documents.termsHref">General Freight Forwarder Terms (PDF)</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
 
         <section id="contact">
             <div class="container">
                 <h2 data-i18n="contact.title">Contact Us</h2>
                 <div class="contact-wrapper">
-                    <div class="contact-info">
+                    <div class="contact-col">
                         <h3 data-i18n="contact.getInTouch">Get in Touch</h3>
-                        <p><strong data-i18n="contact.address">Address</strong>:<br><span data-i18n="contact.addressValue">Slovakia</span></p>
-                        <p><strong data-i18n="contact.phone">Phone</strong>:<br><span data-i18n="contact.phoneValue">+421 XXX XXX XXX</span></p>
-                        <p><strong data-i18n="contact.email">Email</strong>:<br><span data-i18n="contact.emailValue">info@hakos.sk</span></p>
-                        <p><strong data-i18n="contact.businessHours">Business Hours</strong>:<br><span data-i18n="contact.hoursValue">Mon - Fri: 8:00 AM - 4:00 PM</span></p>
+                        <p><strong data-i18n="contact.phone">Phone</strong>:<br>
+                        <a href="tel:+421417633069">+421 41 76 33 069</a> (tel./fax)</p>
+                        <p><strong data-i18n="contact.email">Email</strong>:<br>
+                        <a href="mailto:hakos@hakos.sk">hakos@hakos.sk</a></p>
+                        <p><strong data-i18n="contact.businessHours">Business Hours</strong>:<br>
+                        <span data-i18n="contact.hoursValue">Mon - Fri: 8:00 AM - 4:00 PM</span></p>
+                        <a href="mailto:hakos@hakos.sk?subject=Contact%20from%20website" class="btn" data-i18n="contact.form.send">Send Message</a>
                     </div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name" data-i18n="contact.form.name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" data-i18n="contact.form.email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" data-i18n="contact.form.message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn" data-i18n="contact.form.send">Send Message</button>
-                    </form>
+                    <div class="contact-col">
+                        <h3 data-i18n="contact.team">Our Team</h3>
+                        <p><strong>Peter Pirošík</strong><br>
+                        <a href="mailto:peter.pirosik@hakos.sk">peter.pirosik@hakos.sk</a><br>
+                        <a href="tel:+421905543393">+421 905 543 393</a></p>
+                        <p><strong>Tomáš Moravčík</strong><br>
+                        <a href="mailto:tomas.moravcik@hakos.sk">tomas.moravcik@hakos.sk</a><br>
+                        <a href="tel:+421905543322">+421 905 543 322</a></p>
+                        <p><strong>Michal Šimun</strong><br>
+                        <a href="mailto:michal.simun@hakos.sk">michal.simun@hakos.sk</a><br>
+                        <a href="tel:+421907492386">+421 907 492 386</a></p>
+                        <p><strong>Roman Bielík</strong><br>
+                        <a href="mailto:roman.bielik@hakos.sk">roman.bielik@hakos.sk</a><br>
+                        <a href="tel:+421948488240">+421 948 488 240</a></p>
+                    </div>
+                    <div class="contact-col">
+                        <h3 data-i18n="contact.companyInfo">Company Information</h3>
+                        <p><strong data-i18n="contact.registeredOffice">Registered Office</strong>:<br>
+                        Hakos Spedition s.r.o.<br>
+                        Závodského 9/45<br>
+                        010 04 Žilina</p>
+                        <p><strong data-i18n="contact.operationsOffice">Forwarding Operations</strong>:<br>
+                        Hakos Spedition<br>
+                        Juraja Závodského 9<br>
+                        010 04 Žilina - Závodie</p>
+                        <p><strong data-i18n="contact.companyId">Company Details</strong>:<br>
+                        <span data-i18n="contact.icoLabel">IČO</span>: 46504591<br>
+                        <span data-i18n="contact.vatLabel">IČ DPH</span>: SK2820017684<br>
+                        <span data-i18n="contact.registerValue">Registered in Commercial Register Žilina, File No.: 55945/L</span></p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.8!2d18.7347!3d49.2228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145f0a0a0a0a0a%3A0x0!2sJuraja+Z%C3%A1vodsk%C3%A9ho+9%2C+010+04+%C5%BDilina-Z%C3%A1vodie!5e0!3m2!1ssk!2ssk!4v1" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>

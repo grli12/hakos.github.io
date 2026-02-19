@@ -175,11 +175,11 @@ section h2 {
 
 /* Hero Section */
 .hero {
-    background: url('images/hero-background.png') center/cover no-repeat;
+    background: url('images/multilogo.png') center/cover no-repeat;
     color: var(--text-color);
     text-align: center;
     padding: 80px 0;
-    min-height: 40vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
 }
@@ -229,6 +229,24 @@ section h2 {
 @media (max-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero {
+        min-height: 20vh;
+        background: url('images/multilog.png') center/cover no-repeat;
+    }
+
+    .hero-logo {
+        max-width: 90%;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn {
+        padding: 6px 16px;
+        font-size: 0.75rem;
     }
 }
 
@@ -281,7 +299,7 @@ section h2 {
     background: #d96a1a;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     .service-btn {
         opacity: 1;
         transform: translateY(0);
@@ -356,86 +374,44 @@ section h2 {
     font-size: 1.1rem;
 }
 
-/* Documents */
-.documents-list {
-    list-style: none;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.documents-list li {
-    background: var(--white);
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.documents-list a {
-    display: block;
-    padding: 20px 25px;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s ease, padding-left 0.3s ease;
-}
-
-.documents-list a:hover {
-    background: var(--light-bg);
-    padding-left: 35px;
-}
 
 /* Contact */
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 50px;
-    max-width: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
-.contact-info h3 {
+.contact-col h3 {
     color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
-.contact-info p {
+.contact-col p {
     margin-bottom: 15px;
     color: var(--gray);
 }
 
-.contact-form {
-    background: var(--white);
-    padding: 40px;
+.contact-col a:not(.btn) {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact-col a:not(.btn):hover {
+    text-decoration: underline;
+}
+
+.contact-map {
+    margin-top: 40px;
     border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
+.contact-map iframe {
     display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: var(--primary-color);
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 12px 15px;
-    border: 2px solid #e0e0e0;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-    font-family: inherit;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--secondary-color);
 }
 
 /* Footer */
@@ -546,23 +522,12 @@ footer {
         transform: rotate(-45deg) translate(7px, -6px);
     }
 
-    .hero-logo {
-        max-width: 90%;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
     section h2 {
         font-size: 2rem;
     }
 
     .contact-wrapper {
         grid-template-columns: 1fr;
-    }
-
-    .contact-info {
         text-align: center;
     }
 }

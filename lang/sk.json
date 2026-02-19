@@ -3,7 +3,7 @@
     "home": "Domov",
     "about": "O Nás",
     "services": "Služby",
-    "documents": "Dokumenty",
+
     "contact": "Kontakt"
   },
   "hero": {
@@ -52,29 +52,23 @@
       "additional": "Doplnkové služby"
     }
   },
-  "documents": {
-    "title": "Dokumenty",
-    "certificate": "Živnostenský list (PDF)",
-    "ethicsCode": "Etický kódex (PDF)",
-    "ethicsCodeHref": "docs/sk/EK.pdf",
-    "terms": "Všeobecné zasielateľské podmienky (PDF)",
-    "termsHref": "docs/sk/terms.pdf"
-  },
   "contact": {
     "title": "Kontaktujte nás",
     "getInTouch": "Spojte sa s nami",
-    "address": "Adresa",
+    "registeredOffice": "Sídlo spoločnosti",
+    "operationsOffice": "Prevádzka špedície",
+    "companyId": "Firemné údaje",
+    "icoLabel": "IČO",
+    "vatLabel": "IČ DPH",
+    "registerValue": "Zapísaný v OR Žilina, Vložka číslo: 55945/L",
     "phone": "Telefón",
     "email": "E-mail",
+    "team": "Náš tím",
+    "companyInfo": "Firemné údaje",
     "businessHours": "Pracovné hodiny",
-    "addressValue": "Slovensko",
-    "phoneValue": "+421 XXX XXX XXX",
-    "emailValue": "info@hakos.sk",
     "hoursValue": "Po - Pia: 8:00 - 16:00",
     "form": {
-      "name": "Meno",
-      "email": "E-mail",
-      "message": "Správa",
+      "description": "Napíšte nám priamo e-mailom:",
       "send": "Odoslať správu"
     }
   },
