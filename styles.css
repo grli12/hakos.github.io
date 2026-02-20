@@ -198,6 +198,9 @@ section h2 {
     margin-bottom: 30px;
     color: var(--white);
     font-weight: 700;
+    background: rgba(243, 121, 32, 0.2);
+    padding: 15px 25px;
+    border-radius: 8px;
 }
 
 .btn {
