@@ -69,7 +69,8 @@
     "hoursValue": "Mon - Fri: 8:00 AM - 4:00 PM",
     "form": {
       "description": "Send us a message directly via email:",
-      "send": "Send Message"
+      "send": "Send Message",
+      "mailtoSubject": "Inquiry About Your Logistics Services"
     }
   },
   "footer": {

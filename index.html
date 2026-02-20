@@ -136,24 +136,24 @@
                         <p><strong data-i18n="contact.phone">Phone</strong>:<br>
                         <a href="tel:+421417633069">+421 41 76 33 069</a> (tel./fax)</p>
                         <p><strong data-i18n="contact.email">Email</strong>:<br>
-                        <a href="mailto:hakos@hakos.sk">hakos@hakos.sk</a></p>
+                        <a href="mailto:hakos@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services">hakos@hakos.sk</a></p>
                         <p><strong data-i18n="contact.businessHours">Business Hours</strong>:<br>
                         <span data-i18n="contact.hoursValue">Mon - Fri: 8:00 AM - 4:00 PM</span></p>
-                        <a href="mailto:hakos@hakos.sk?subject=Contact%20from%20website" class="btn" data-i18n="contact.form.send">Send Message</a>
+                        <a href="mailto:hakos@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services" class="btn" data-i18n="contact.form.send">Send Message</a>
                     </div>
                     <div class="contact-col">
                         <h3 data-i18n="contact.team">Our Team</h3>
                         <p><strong>Peter Pirošík</strong><br>
-                        <a href="mailto:peter.pirosik@hakos.sk">peter.pirosik@hakos.sk</a><br>
+                        <a href="mailto:peter.pirosik@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services">peter.pirosik@hakos.sk</a><br>
                         <a href="tel:+421905543393">+421 905 543 393</a></p>
                         <p><strong>Tomáš Moravčík</strong><br>
-                        <a href="mailto:tomas.moravcik@hakos.sk">tomas.moravcik@hakos.sk</a><br>
+                        <a href="mailto:tomas.moravcik@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services">tomas.moravcik@hakos.sk</a><br>
                         <a href="tel:+421905543322">+421 905 543 322</a></p>
                         <p><strong>Michal Šimun</strong><br>
-                        <a href="mailto:michal.simun@hakos.sk">michal.simun@hakos.sk</a><br>
+                        <a href="mailto:michal.simun@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services">michal.simun@hakos.sk</a><br>
                         <a href="tel:+421907492386">+421 907 492 386</a></p>
                         <p><strong>Roman Bielík</strong><br>
-                        <a href="mailto:roman.bielik@hakos.sk">roman.bielik@hakos.sk</a><br>
+                        <a href="mailto:roman.bielik@hakos.sk?subject=Inquiry%20About%20Your%20Logistics%20Services">roman.bielik@hakos.sk</a><br>
                         <a href="tel:+421948488240">+421 948 488 240</a></p>
                     </div>
                     <div class="contact-col">
@@ -234,6 +234,14 @@
                     element.setAttribute('href', href);
                 }
             });
+            // Update mailto subjects
+            const mailtoSubject = getNestedValue(translations, 'contact.form.mailtoSubject');
+            if (mailtoSubject) {
+                document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+                    const email = link.href.split('?')[0].replace('mailto:', '');
+                    link.setAttribute('href', 'mailto:' + email + '?subject=' + encodeURIComponent(mailtoSubject));
+                });
+            }
             // Update html lang attribute
             document.documentElement.lang = currentLang;
 

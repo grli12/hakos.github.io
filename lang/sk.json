@@ -69,7 +69,8 @@
     "hoursValue": "Po - Pia: 8:00 - 16:00",
     "form": {
       "description": "Napíšte nám priamo e-mailom:",
-      "send": "Odoslať správu"
+      "send": "Odoslať správu",
+      "mailtoSubject": "Dotaz týkajúci sa Vašich logistických služieb"
     }
   },
   "footer": {
