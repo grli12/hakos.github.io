@@ -4,7 +4,8 @@
     "about": "About Us",
     "services": "Services",
 
-    "contact": "Contact"
+    "contact": "Contact",
+    "documents": "Documents"
   },
   "hero": {
     "title": "HAKOS Spedition",
@@ -52,6 +53,11 @@
       "additional": "Additional services"
     }
   },
+  "documents": {
+    "title": "Documents",
+    "certificate2024": "STN EN ISO 9001:2016 Certificate",
+    "zlzCertificates": "ZLZ SR Certificates"
+  },
   "contact": {
     "title": "Contact Us",
     "getInTouch": "Get in Touch",
@@ -64,6 +70,8 @@
     "phone": "Phone",
     "email": "Email",
     "team": "Our Team",
+    "roleBackoffice": "back office",
+    "roleAccounting": "accounting",
     "companyInfo": "Company Information",
     "businessHours": "Business Hours",
     "hoursValue": "Mon - Fri: 8:00 AM - 4:00 PM",

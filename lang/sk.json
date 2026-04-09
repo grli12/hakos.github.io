@@ -4,7 +4,8 @@
     "about": "O Nás",
     "services": "Služby",
 
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "documents": "Dokumenty"
   },
   "hero": {
     "title": "HAKOS Spedition",
@@ -52,6 +53,11 @@
       "additional": "Doplnkové služby"
     }
   },
+  "documents": {
+    "title": "Dokumenty",
+    "certificate2024": "Certifikát STN EN ISO 9001:2016",
+    "zlzCertificates": "Certifikát ZLZ SR"
+  },
   "contact": {
     "title": "Kontaktujte nás",
     "getInTouch": "Spojte sa s nami",
@@ -64,6 +70,8 @@
     "phone": "Telefón",
     "email": "E-mail",
     "team": "Náš tím",
+    "roleBackoffice": "administratíva",
+    "roleAccounting": "účtovníctvo",
     "companyInfo": "Firemné údaje",
     "businessHours": "Pracovné hodiny",
     "hoursValue": "Po - Pia: 8:00 - 16:00",
