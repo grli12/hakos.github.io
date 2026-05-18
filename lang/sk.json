@@ -56,7 +56,9 @@
   "documents": {
     "title": "Dokumenty",
     "certificate2024": "Certifikát STN EN ISO 9001:2016",
-    "zlzCertificates": "Certifikát ZLZ SR"
+    "zlzCertificates": "Certifikát ZLZ SR",
+    "codeOfEthics": "Etický kodex",
+    "codeOfEthicsHref": "docs/general/ETICKY%20KODEX-%20HAKOS%20Spedition.pdf"
   },
   "contact": {
     "title": "Kontaktujte nás",
